@@ -1,4 +1,4 @@
-import * as path from 'path';
+import * as path from 'node:path';
 import axios from 'axios';
 import { config } from '../../config/index.js';
 import {
@@ -8,7 +8,7 @@ import {
   writeFile,
 } from '../../utils/fileUtils.js';
 import { formatDuration, generateHash } from '../../utils/helpers.js';
-import {
+import type {
   CacheData,
   DocumentContent,
   FetcherStats,

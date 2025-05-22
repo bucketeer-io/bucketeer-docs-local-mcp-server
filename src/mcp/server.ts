@@ -1,7 +1,7 @@
 // src/mcp/server.ts
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
-import { ZodRawShape } from 'zod';
+import type { ZodRawShape } from 'zod';
 import { config } from '../config/index.js';
 import { IndexManager } from '../core/indexing/indexManager.js';
 import { SearchService } from '../core/search/SearchService.js';

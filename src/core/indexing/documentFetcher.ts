@@ -1,4 +1,4 @@
-import * as path from 'path';
+import * as path from 'node:path';
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { config } from '../../config/index.js';
@@ -13,7 +13,7 @@ import {
   generateHash,
   urlToFilename,
 } from '../../utils/helpers.js';
-import {
+import type {
   CacheData,
   DocumentContent,
   FetcherStats,

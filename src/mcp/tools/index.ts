@@ -1,4 +1,4 @@
-import { SearchService } from '../../core/search/SearchService.js';
+import type { SearchService } from '../../core/search/SearchService.js';
 import { createGetDocumentTool } from './getDocumentTool.js';
 import { createSearchTool } from './searchTool.js';
 

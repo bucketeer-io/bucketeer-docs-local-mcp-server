@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { SearchService } from '../../core/search/SearchService.js';
+import type { SearchService } from '../../core/search/SearchService.js';
 
 type McpTextContent = { type: 'text'; text: string };
 

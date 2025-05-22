@@ -1,6 +1,6 @@
-import * as fs from 'fs';
-import * as path from 'path';
-import * as fsp from 'fs/promises';
+import * as fs from 'node:fs';
+import * as fsp from 'node:fs/promises';
+import * as path from 'node:path';
 
 export async function fileExists(filePath: string): Promise<boolean> {
   try {

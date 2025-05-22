@@ -1,9 +1,9 @@
-import { fileURLToPath } from 'url';
+import { fileURLToPath } from 'node:url';
 import { config } from '../config/index.js';
 import { DocumentFetcher } from '../core/indexing/documentFetcher.js';
 import { GithubDocumentFetcher } from '../core/indexing/githubDocumentFetcher.js';
 import { IndexManager } from '../core/indexing/indexManager.js';
-import { FileProcessResult } from '../core/indexing/types.js';
+import type { FileProcessResult } from '../core/indexing/types.js';
 import { ensureDirectoryExists, removeDirectory } from '../utils/fileUtils.js';
 
 async function runIndexing(): Promise<void> {
