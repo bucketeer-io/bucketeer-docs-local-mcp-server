@@ -1,6 +1,6 @@
 import { config } from '../../config/index.js';
-import { IndexManager } from '../indexing/indexManager.js';
-import { DocumentContent, SearchResult } from '../indexing/types.js';
+import type { IndexManager } from '../indexing/indexManager.js';
+import type { DocumentContent, SearchResult } from '../indexing/types.js';
 
 export class SearchService {
   private indexManager: IndexManager;

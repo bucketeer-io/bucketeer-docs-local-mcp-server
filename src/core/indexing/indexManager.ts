@@ -1,4 +1,4 @@
-import * as path from 'path';
+import * as path from 'node:path';
 import { config } from '../../config/index.js';
 import {
   ensureDirectoryExists,
@@ -8,7 +8,7 @@ import {
   writeFile,
 } from '../../utils/fileUtils.js';
 import { extractKeywords } from '../../utils/helpers.js';
-import { DocumentContent, DocumentIndex, SearchResult } from './types.js';
+import type { DocumentContent, DocumentIndex, SearchResult } from './types.js';
 
 export class IndexManager {
   private readonly indexDirectory: string = config.indexDir;
