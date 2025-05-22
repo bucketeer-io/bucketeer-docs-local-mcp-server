@@ -1,37 +1,32 @@
 {
-    "name": "bucketeer-docs-local-mcp-server",
-    "version": "1.0.0",
-    "description": "Local MCP Server to query Bucketeer documentation",
-    "main": "dist/main.js",
-    "type": "module",
-    "scripts": {
-      "build": "tsc",
-      "build:index": "node dist/scripts/buildIndex.js",
-      "build:index:force": "node dist/scripts/buildIndex.js --force",
-      "start": "node dist/main.js",
-      "dev:index": "npm run build && npm run build:index",
-      "dev": "npm run build && npm start",
-      "lint": "biome check .",
-      "lint:fix": "biome check --apply .",
-      "test:ci": "echo \"No tests specified\" && exit 0"
-    },
-    "keywords": [
-      "mcp",
-      "documentation",
-      "search",
-      "bucketeer"
-    ],
-    "license": "Apache-2.0",
-    "dependencies": {
-      "@modelcontextprotocol/sdk": "^1.8.0",
-      "@biomejs/biome": "1.9.4",
-      "axios": "^1.8.4",
-      "cheerio": "^1.0.0",
-      "dotenv": "^16.4.7",
-      "zod": "^3.24.2"
-    },
-    "devDependencies": {
-      "@types/node": "^22.0.0",
-      "typescript": "^5.5.3"
-    }
+  "name": "bucketeer-docs-local-mcp-server",
+  "version": "1.0.0",
+  "description": "Local MCP Server to query Bucketeer documentation",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:index": "node dist/scripts/buildIndex.js",
+    "build:index:force": "node dist/scripts/buildIndex.js --force",
+    "start": "node dist/main.js",
+    "dev:index": "npm run build && npm run build:index",
+    "dev": "npm run build && npm start",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "test:ci": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["mcp", "documentation", "search", "bucketeer"],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@biomejs/biome": "1.9.4",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.3"
+  }
 }
