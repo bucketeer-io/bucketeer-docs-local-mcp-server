@@ -129,6 +129,8 @@ When the MCP server is running, the following tools are available:
 - `npm run build:index:force` - Force rebuild the entire index (ignores cache)
 - `npm run dev:index` - Build and update index in development mode
 - `npm run dev` - Build and start server in development mode
+- `npm run lint` - Run Biome linting
+- `npm run lint:fix` - Run Biome linting and fix linting errors
 
 ## Configuration
 
@@ -160,10 +162,12 @@ The server consists of several key components:
 3. **SearchService**: Provides search functionality with keyword matching and full-text search
 4. **MCP Server**: Exposes tools via the Model Context Protocol
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
-MIT
+Apache License 2.0, see [LICENSE](https://github.com/bucketeer-io/bucketeer/blob/master/LICENSE).
+
+## Contributing
+
+We would ❤️ for you to contribute to Bucketeer and help improve it! Anyone can use and enjoy it!
+
+Please follow our contribution guide [here](https://docs.bucketeer.io/contribution-guide/contributing).
