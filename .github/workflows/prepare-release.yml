@@ -20,7 +20,7 @@ jobs:
       - name: Update version
         run: VERSION=${{ inputs.version }} npm run prepare-release
       - name: Create a PR
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         with:
           title: "[bot] release ${{ inputs.version }}"
           commit-message: "[bot] release ${{ inputs.version }}"
