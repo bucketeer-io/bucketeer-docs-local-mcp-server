@@ -181,7 +181,6 @@ export class GithubDocumentFetcher {
           `Error listing GitHub repository files from ${directory}:`,
           error.message
         );
-        // 型ガードでerrorがオブジェクトかつ'response'プロパティを持つ場合のみ処理
         if (
           typeof error === 'object' &&
           error !== null &&
