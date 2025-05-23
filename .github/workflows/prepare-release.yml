@@ -24,7 +24,12 @@ jobs:
         with:
           title: "[bot] release ${{ inputs.version }}"
           commit-message: "[bot] release ${{ inputs.version }}"
-          body: "This PR updates the version to ${{ inputs.version }}."
+          body: |
+            This PR updates the version to ${{ inputs.version }}.
+            
+            **Next steps after merge:**
+            1. Create a GitHub release with tag `v${{ inputs.version }}`
+            2. The package will be automatically published to GitHub Packages
           branch: "release-${{ inputs.version }}"
           base: "main"
           delete-branch: true
