@@ -6,7 +6,7 @@ type McpTextContent = { type: 'text'; text: string };
 
 export function createSearchTool(searchService: SearchService) {
   return {
-    name: 'search-docs',
+    name: 'search_docs',
     description: 'Search for relevant documents in the documentation.',
     inputSchema: z.object({
       query: z.string().describe('The search query.'),
@@ -19,7 +19,7 @@ export function createSearchTool(searchService: SearchService) {
     execute: async ({ query, limit }: { query: string; limit?: number }) => {
       try {
         console.error(
-          `[MCP Tool] Received search-docs request: "${query}" (limit: ${limit})`
+          `[MCP Tool] Received search_docs request: "${query}" (limit: ${limit})`
         );
         const results = await searchService.search(
           query,
@@ -32,7 +32,7 @@ export function createSearchTool(searchService: SearchService) {
         return { content: [responseContent] };
       } catch (error) {
         console.error(
-          `[MCP Tool] Error processing search-docs request for "${query}":`,
+          `[MCP Tool] Error processing search_docs request for "${query}":`,
           error
         );
         const errorMessage =
