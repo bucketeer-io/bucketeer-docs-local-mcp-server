@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { fileURLToPath } from 'node:url';
 // src/main.ts
 import { startMcpServer } from './mcp/server.js';

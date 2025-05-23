@@ -1,9 +1,17 @@
 {
-  "name": "bucketeer-docs-local-mcp-server",
+  "name": "@bucketeer/docs-local-mcp-server",
   "version": "0.0.1",
   "description": "Local MCP Server to query Bucketeer documentation",
   "main": "dist/main.js",
+  "bin": {
+    "docs-local-mcp-server": "dist/main.js"
+  },
   "type": "module",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "build:index": "node dist/scripts/buildIndex.js",
@@ -13,10 +21,14 @@
     "dev": "npm run build && npm start",
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
-    "test:ci": "echo \"No tests specified\" && exit 0"
+    "test:ci": "echo \"No tests specified\" && exit 0",
+    "prepare-release": "npm version $VERSION --no-git-tag-version"
   },
   "keywords": ["mcp", "documentation", "search", "bucketeer"],
   "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.8.0",
     "@biomejs/biome": "1.9.4",
@@ -28,5 +40,12 @@
   "devDependencies": {
     "@types/node": "^22.0.0",
     "typescript": "^5.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server.git"
+  },
+  "publishConfig": {
+    "@bucketeer:registry": "https://npm.pkg.github.com"
   }
 }
