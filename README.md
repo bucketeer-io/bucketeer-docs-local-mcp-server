@@ -72,7 +72,6 @@ The server automatically fetches and indexes documentation from the [bucketeer-i
 
 Configure the MCP Server by adding the following to your `mcp.json` or `claude_desktop_config.json` file, referring to the documentation for Cursor (https://docs.cursor.com/context/model-context-protocol#configuring-mcp-servers) and Claude Desktop (https://modelcontextprotocol.io/quickstart/user):
 
-**Option 1: Using npm (Recommended)**
 ```json
 {
   "mcpServers": {
@@ -84,20 +83,6 @@ Configure the MCP Server by adding the following to your `mcp.json` or `claude_d
   }
 }
 ```
-
-**Option 2: Using node directly**
-```json
-{
-  "mcpServers": {
-    "bucketeer-docs": {
-      "command": "node",
-      "args": ["/path/to/bucketeer-docs-local-mcp-server/dist/main.js"]
-    }
-  }
-}
-```
-
-**Important**: Make sure to use the absolute path to the `dist/main.js` file after building the project.
 
 ## Usage
 
