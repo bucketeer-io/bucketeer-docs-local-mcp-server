@@ -14,13 +14,21 @@
     "enabled": true,
     "indentStyle": "space",
     "indentWidth": 2,
-    "ignore": ["dist/**"]
+    "ignore": ["dist/**", "package.json"]
   },
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
       "semicolons": "always",
       "trailingCommas": "es5"
+    }
+  },
+  "json": {
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineEnding": "lf"
     }
   }
 }
