@@ -51,6 +51,8 @@
     "url": "git+https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server.git"
   },
   "publishConfig": {
-    "@bucketeer:registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org",
+    "access": "public",
+    "@bucketeer:registry": "https://registry.npmjs.org"
   }
 }
