@@ -1,13 +1,17 @@
 {
   "name": "@bucketeer/docs-local-mcp-server",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Local MCP Server to query Bucketeer documentation",
   "main": "dist/main.js",
   "bin": {
     "docs-local-mcp-server": "dist/main.js"
   },
   "type": "module",
-  "files": ["dist/", "README.md", "LICENSE"],
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "build:index": "node dist/scripts/buildIndex.js",
@@ -20,7 +24,12 @@
     "test:ci": "echo \"No tests specified\" && exit 0",
     "prepare-release": "npm version $VERSION --no-git-tag-version"
   },
-  "keywords": ["mcp", "documentation", "search", "bucketeer"],
+  "keywords": [
+    "mcp",
+    "documentation",
+    "search",
+    "bucketeer"
+  ],
   "license": "Apache-2.0",
   "engines": {
     "node": ">=18.0.0"
