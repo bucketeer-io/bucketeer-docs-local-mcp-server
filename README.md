@@ -72,6 +72,20 @@ The server automatically fetches and indexes documentation from the [bucketeer-i
 
 Configure the MCP Server by adding the following to your `mcp.json` or `claude_desktop_config.json` file, referring to the documentation for Cursor (https://docs.cursor.com/context/model-context-protocol#configuring-mcp-servers) and Claude Desktop (https://modelcontextprotocol.io/quickstart/user):
 
+**Option 1: Using npm (Recommended)**
+```json
+{
+  "mcpServers": {
+    "bucketeer-docs": {
+      "type": "stdio",
+      "command": "npm",
+      "args": ["start", "--prefix", "/path/to/bucketeer-docs-local-mcp-server"]
+    }
+  }
+}
+```
+
+**Option 2: Using node directly**
 ```json
 {
   "mcpServers": {
@@ -89,14 +103,14 @@ Configure the MCP Server by adding the following to your `mcp.json` or `claude_d
 
 When the MCP server is running, the following tools are available:
 
-### 1. `search-docs` - Search Bucketeer Documentation
+### 1. `search_docs` - Search Bucketeer Documentation
 - **Parameter**: `query` (string) - The search query
 - **Parameter**: `limit` (number, optional) - Maximum number of results to return (default: 5)
 
 **Example**:
 ```json
 {
-  "name": "search-docs",
+  "name": "search_docs",
   "arguments": {
     "query": "feature flags SDK integration",
     "limit": 5
@@ -106,13 +120,13 @@ When the MCP server is running, the following tools are available:
 
 **Response**: Returns an array of search results with title, URL, path, description, excerpt, and relevance score.
 
-### 2. `get-document` - Get Specific Document Content
+### 2. `get_document` - Get Specific Document Content
 - **Parameter**: `path` (string) - Document path obtained from search results
 
 **Example**:
 ```json
 {
-  "name": "get-document",
+  "name": "get_document",
   "arguments": {
     "path": "getting-started/create-feature-flag"
   }

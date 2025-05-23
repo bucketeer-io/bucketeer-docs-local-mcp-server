@@ -15,11 +15,4 @@ async function main() {
   }
 }
 
-const scriptPath = fileURLToPath(import.meta.url);
-const isDirectRun =
-  process.argv[1] &&
-  (process.argv[1] === scriptPath || process.argv[1].endsWith('/dist/main.js'));
-
-if (isDirectRun) {
-  main();
-}
+main();

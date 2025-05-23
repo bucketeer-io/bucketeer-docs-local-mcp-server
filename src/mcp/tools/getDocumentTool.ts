@@ -5,7 +5,7 @@ type McpTextContent = { type: 'text'; text: string };
 
 export function createGetDocumentTool(searchService: SearchService) {
   return {
-    name: 'get-document',
+    name: 'get_document',
     description:
       'Retrieve the full content of a specific document by its path.',
     inputSchema: z.object({
@@ -14,7 +14,7 @@ export function createGetDocumentTool(searchService: SearchService) {
     execute: async ({ path }: { path: string }) => {
       try {
         console.error(
-          `[MCP Tool] Received get-document request for path: "${path}"`
+          `[MCP Tool] Received get_document request for path: "${path}"`
         );
         const document = searchService.getDocument(path);
 
@@ -33,7 +33,7 @@ export function createGetDocumentTool(searchService: SearchService) {
         return { content: [responseContent] };
       } catch (error) {
         console.error(
-          `[MCP Tool] Error processing get-document request for path "${path}":`,
+          `[MCP Tool] Error processing get_document request for path "${path}":`,
           error
         );
         const errorMessage =
