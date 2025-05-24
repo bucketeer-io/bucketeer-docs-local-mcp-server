@@ -4,7 +4,9 @@
   "description": "Local MCP Server to query Bucketeer documentation",
   "main": "dist/main.js",
   "bin": {
-    "docs-local-mcp-server": "dist/main.js"
+    "@bucketeer/docs-local-mcp-server": "dist/main.js",
+    "docs-local-mcp-server": "dist/main.js",
+    "build-index": "dist/scripts/buildIndex.js"
   },
   "type": "module",
   "files": [

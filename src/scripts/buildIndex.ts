@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { fileURLToPath } from 'node:url';
 import { config } from '../config/index.js';
 import { DocumentFetcher } from '../core/indexing/documentFetcher.js';
