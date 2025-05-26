@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.3.0](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/compare/v1.2.0...v1.3.0) (2025-05-26)
+
+
+### Features
+
+* add npx command for build index ([446692a](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/446692a1d73fa12e4ad5e986d633849887a83e44))
+
+
+### Bug Fixes
+
+* **deps:** update dependency zod to v3.25.28 ([766cee6](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/766cee64e7251dc3a8f81173649983c7c8a613e8))
+
+
+### Miscellaneous
+
+* Update CHANGELOG.md ([87fae6d](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/87fae6de0c54aa342e2b76215d92e39f1621fc23))
+* Update CHANGELOG.md ([c0ddf4f](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/c0ddf4f0532176277aa22e8de703f68290b74116))
+
 ## [1.2.0](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/compare/v1.1.0...v1.2.0) (2025-05-26)
 
 
