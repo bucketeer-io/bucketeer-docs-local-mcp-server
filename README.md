@@ -66,11 +66,43 @@ The server automatically fetches and indexes documentation from the [bucketeer-i
   - GitHub cache stored in `files/docs/github_cache.json` with SHA-based change detection
   - Use `npm run build:index:force` to force rebuild the entire index
 
+## Using with npx
+
+### First-time Setup
+
+1. Build the document index:
+```bash
+npx @bucketeer/docs-local-mcp-server build-index
+```
+
+2. Use in your MCP configuration as shown in the next section.
+
+### Updating the Index
+
+To update the documentation index (e.g., when new documentation is available):
+```bash
+npx @bucketeer/docs-local-mcp-server build-index --force
+```
+
 ## Cursor and Claude Desktop Configuration
 
-### Setup
-
 Configure the MCP Server by adding the following to your `mcp.json` or `claude_desktop_config.json` file, referring to the documentation for Cursor (https://docs.cursor.com/context/model-context-protocol#configuring-mcp-servers) and Claude Desktop (https://modelcontextprotocol.io/quickstart/user):
+
+### Option 1: Using npx (Recommended)
+
+```json
+{
+  "mcpServers": {
+    "bucketeer-docs": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@bucketeer/docs-local-mcp-server"]
+    }
+  }
+}
+```
+
+### Option 2: Using local installation
 
 ```json
 {
@@ -126,6 +158,8 @@ When the MCP server is running, the following tools are available:
 - `npm run build` - Compile TypeScript files to `dist/` directory
 - `npm run build:index` - Build/update the document index from GitHub repository
 - `npm run build:index:force` - Force rebuild the entire index (ignores cache)
+- `npx @bucketeer/docs-local-mcp-server build-index` - Build index using npx
+- `npx @bucketeer/docs-local-mcp-server build-index --force` - Force rebuild index using npx
 - `npm run dev:index` - Build and update index in development mode
 - `npm run dev` - Build and start server in development mode
 - `npm run lint` - Run Biome linting
