@@ -92,7 +92,7 @@ Configure the MCP Server by adding the following to your `mcp.json` or `claude_d
 
 For Cursor users, you can install the MCP server with a single click using the deeplink below:
 
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](cursor://anysphere.cursor-deeplink/mcp/install?name=bucketeer-docs&config=eyJ0eXBlIjoic3RkaW8iLCJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAYnVja2V0ZWVyL2RvY3MtbG9jYWwtbWNwLXNlcnZlciJdfQ==)
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=bucketeer-docs&config=eyJ0eXBlIjoic3RkaW8iLCJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAYnVja2V0ZWVyL2RvY3MtbG9jYWwtbWNwLXNlcnZlciJdfQ==)
 
 This will automatically configure the MCP server in your Cursor settings. After clicking the link, Cursor will prompt you to install the server.
 
