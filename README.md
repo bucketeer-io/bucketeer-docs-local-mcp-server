@@ -88,6 +88,14 @@ npx @bucketeer/docs-local-mcp-server build-index --force
 
 Configure the MCP Server by adding the following to your `mcp.json` or `claude_desktop_config.json` file, referring to the documentation for Cursor (https://docs.cursor.com/context/model-context-protocol#configuring-mcp-servers) and Claude Desktop (https://modelcontextprotocol.io/quickstart/user):
 
+### Quick Install with Cursor Deeplink
+
+For Cursor users, you can install the MCP server with a single click using the deeplink below:
+
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](cursor://anysphere.cursor-deeplink/mcp/install?name=bucketeer-docs&config=eyJ0eXBlIjoic3RkaW8iLCJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAYnVja2V0ZWVyL2RvY3MtbG9jYWwtbWNwLXNlcnZlciJdfQ==)
+
+This will automatically configure the MCP server in your Cursor settings. After clicking the link, Cursor will prompt you to install the server.
+
 ### Option 1: Using npx (Recommended)
 
 ```json
