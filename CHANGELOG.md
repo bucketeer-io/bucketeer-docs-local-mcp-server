@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.3.1](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/compare/v1.3.0...v1.3.1) (2025-06-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.12.1 ([ff099a6](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/ff099a69fbb6efe4c3cfa74c1a777a54c9c45235))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.12.1 ([513f71a](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/513f71a8acfdcd188390bb629bc57f21cf2fa740))
+* **deps:** update dependency zod to v3.25.49 ([c144914](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/c144914256c364d98066e6270ec991cdb43a09cb))
+* **deps:** update dependency zod to v3.25.49 ([4c17e98](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/4c17e9817ead56accdd0a9b3cb42b59dc93b50cf))
+* **deps:** update dependency zod to v3.25.53 ([4227a55](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/4227a557b0fe1e5118cb50265b8b22d94a3c527f))
+* **deps:** update dependency zod to v3.25.53 ([1387d42](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/1387d4222e0640b59330004ba792cc30c85363e5))
+
+
+### Miscellaneous
+
+* **deps:** update dependency @types/node to v22.15.29 ([84b801b](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/84b801b8d771d571470059404f96ce06cfbfc3ea))
+* **deps:** update dependency @types/node to v22.15.29 ([36dd6cc](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/36dd6cc99e0e25b30f2034fbe183abbdb7f73629))
+* **deps:** update dependency @types/node to v22.15.30 ([2443b47](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/2443b47a5f1b8e0a6230c681a2917b3736136e8a))
+* **deps:** update dependency @types/node to v22.15.30 ([264187f](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/264187f1eb305d5f79844fe59b0aa3c302b57a68))
+
 ## [1.3.0](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/compare/v1.2.0...v1.3.0) (2025-05-26)
 
 
