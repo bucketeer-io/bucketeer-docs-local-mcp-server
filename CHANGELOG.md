@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.3.1](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/compare/v1.3.0...v1.3.1) (2025-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.12.1 ([ff099a6](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/ff099a69fbb6efe4c3cfa74c1a777a54c9c45235))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.12.1 ([513f71a](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/513f71a8acfdcd188390bb629bc57f21cf2fa740))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.12.3 ([6c45173](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/6c451735b6c0e021aa0ff910df981941eb72897f))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.12.3 ([c7735ab](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/c7735abd79bc909bcdad08c4a447996c8c51dc5a))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.15.1 ([1ab0d34](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/1ab0d348d52291e06e0dd60b279ae17eba6926c8))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.15.1 ([508d976](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/508d9769144606be99dc8770038f412bf21cbd91))
+* **deps:** update dependency axios to v1.10.0 ([a8af42f](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/a8af42f4ad1afe2dcec85e3d973f52de0c3dc6ff))
+* **deps:** update dependency axios to v1.10.0 ([8050fb4](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/8050fb4036b308af3af7d398b2e769b85be2db81))
+* **deps:** update dependency cheerio to v1.1.0 ([c991cf2](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/c991cf2470184a2bee48314bb8c4a35dcad26496))
+* **deps:** update dependency cheerio to v1.1.0 ([ce68ace](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/ce68ace644e035856ea604caca2346233a272641))
+* **deps:** update dependency dotenv to v16.6.1 ([0ee5f17](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/0ee5f17b182673c73e8f6996ee690675c3bba194))
+* **deps:** update dependency dotenv to v16.6.1 ([e26ee55](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/e26ee55bce5d3cde737e55f327344e731fe1bd14))
+* **deps:** update dependency zod to v3.25.49 ([c144914](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/c144914256c364d98066e6270ec991cdb43a09cb))
+* **deps:** update dependency zod to v3.25.49 ([4c17e98](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/4c17e9817ead56accdd0a9b3cb42b59dc93b50cf))
+* **deps:** update dependency zod to v3.25.53 ([4227a55](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/4227a557b0fe1e5118cb50265b8b22d94a3c527f))
+* **deps:** update dependency zod to v3.25.53 ([1387d42](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/1387d4222e0640b59330004ba792cc30c85363e5))
+* **deps:** update dependency zod to v3.25.67 ([4891d81](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/4891d819a5a4b88c1a9e68d21c4b25133612526a))
+* **deps:** update dependency zod to v3.25.67 ([7ed8d57](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/7ed8d574c01432c0874c9e03e6d0dc3e7cb8f3b7))
+* **deps:** update dependency zod to v4 ([81734e1](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/81734e1ca5f2bf61628fd18c23c5266cf7f739e0))
+* **deps:** update dependency zod to v4 ([3fbead3](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/3fbead3f5711d7b2dccf7dcdc35cb0d0024488b1))
+* **deps:** update dependency zod to v4.0.5 ([c84d76f](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/c84d76f20dbc34fcf59c317282bd0465ecadd0f9))
+* **deps:** update dependency zod to v4.0.5 ([c1ec4be](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/c1ec4be0b1ef257ee504a3fcbe117c4ae32c90ce))
+
+
+### Miscellaneous
+
+* **deps:** update dependency @types/node to v22.15.29 ([84b801b](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/84b801b8d771d571470059404f96ce06cfbfc3ea))
+* **deps:** update dependency @types/node to v22.15.29 ([36dd6cc](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/36dd6cc99e0e25b30f2034fbe183abbdb7f73629))
+* **deps:** update dependency @types/node to v22.15.30 ([2443b47](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/2443b47a5f1b8e0a6230c681a2917b3736136e8a))
+* **deps:** update dependency @types/node to v22.15.30 ([264187f](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/264187f1eb305d5f79844fe59b0aa3c302b57a68))
+* **deps:** update dependency @types/node to v22.15.32 ([3370c8d](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/3370c8d3d1aa12fd662b4815a5af2d4d00bc8a33))
+* **deps:** update dependency @types/node to v22.15.32 ([6fd43c4](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/6fd43c4ca522ce633c9f0fff057e9d475f0166ad))
+* **deps:** update dependency @types/node to v22.16.4 ([8d278a7](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/8d278a7c08b1adb14f10221407bed719c6edf78d))
+* **deps:** update dependency @types/node to v22.16.4 ([7d35cd8](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/commit/7d35cd8704605700451f93bda183c32f5600ca85))
+
 ## [1.3.0](https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server/compare/v1.2.0...v1.3.0) (2025-05-26)
 
 
